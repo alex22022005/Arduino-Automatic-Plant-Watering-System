@@ -75,7 +75,9 @@ void loop() {
     digitalWrite(motorPin, LOW);   // Turn OFF motor
     Serial.println("Soil is wet. Pump OFF.");
   }
-```
-
   delay(1000);  // Wait for a second before next reading
 }
+```
+---
+## 📄 License
+This project is open-source and available under the MIT License.
